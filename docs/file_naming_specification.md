@@ -1,5 +1,5 @@
 ## 專案資料夾開發結構樹範例
-
+```
 my_python_project/
 │
 ├── README.md
@@ -38,7 +38,7 @@ my_python_project/
     ├── config.yaml
     ├── settings.ini
     └── logging.conf
-
+```
 
 
 ## 各資料夾和文件的用途說明
