@@ -63,15 +63,15 @@ Project_template/
     - `environment.yml`: Conda 環境的配置文件，列出專案依賴項，可使用 `conda env create -f environment.yml` 來建立環境。
 - `src/`: 存放專案的源代碼。建議將代碼模組化，並保持每個模塊的職責單一。
     - `utils/`: 存放常用的輔助函數或工具模組。
-        - `init.py`: 使該目錄成為一個Python包。
+        - `__init__.py`: 使該目錄成為一個Python包。
         - `cuda_version.py`：檢測CUDA版本GPU及Python版本。
         - `one_hot_encode.py`：轉為 One-Hot工具。
         - `time.py`：計時器，計算執行時間。
-    - `init.py`: 使該目錄成為一個Python包。
+    - `__init__.py`: 使該目錄成為一個Python包。
     - `main.py`: 主程序入口，通常用於啟動應用。
     - `module.py`: 各自實現不同功能的模組。
 - `tests/`: 存放測試代碼，使用 unittest 或 pytest 等測試框架撰寫。
-    - `init.py`: 使該目錄成為一個Python包。
+    - `__init__.py`: 使該目錄成為一個Python包。
     - `test_module.ipynb`：測試筆記本。
     - `test_module.py`: 對應 src/ 中模組的測試文件。
 - `LICENSE`: 項目的授權許可文件，指定專案的版權資訊。
