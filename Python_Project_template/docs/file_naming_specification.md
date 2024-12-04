@@ -38,6 +38,7 @@ Project_template/
 │   ├── test_module.ipynb          # 測試筆記本
 │   └── test_module.py             # 對應 src/ 中模組的測試文件
 │
+├── .gitignore                     # Git 忽略項目
 ├── LICENSE                        # 項目的授權許可文件
 ├── README.md                      # 項目說明文件
 ├── requirements.txt               # 列出專案所需的Python庫和版本
