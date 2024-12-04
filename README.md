@@ -40,6 +40,7 @@ Project_template/
 │   ├── test_module.ipynb          # 測試筆記本
 │   └── test_module.py             # 對應 src/ 中模組的測試文件
 │
+├── .gitignore                     # Git 忽略項目
 ├── LICENSE                        # 項目的授權許可文件
 ├── README.md                      # 項目說明文件
 ├── requirements.txt               # 列出專案所需的Python庫和版本
@@ -75,6 +76,7 @@ Project_template_lite/
 │   ├── test_module.ipynb          # 測試筆記本
 │   └── test_module.py             # 對應 src/ 中模組的測試文件
 │
+├── .gitignore                     # Git 忽略項目
 ├── LICENSE                        # 項目的授權許可文件
 ├── README.md                      # 項目說明文件
 └── requirements.txt               # 列出專案所需的Python庫和版本
@@ -86,6 +88,8 @@ Project_template_lite/
 
 ```
 basic_frontend_project/
+├── docs/                          # 存放專案的相關文檔，如API說明、設計文檔等
+│
 ├── public/                        # 靜態資源文件
 │   ├── favicon.ico                # 網站圖標
 │   └── robots.txt                 # 搜索引擎爬取規則
@@ -116,6 +120,7 @@ basic_frontend_project/
 │       ├── test.html              # 測試 HTML 內容
 │       └── test.js                # 測試 JS 效果
 │
+├── .gitignore                     # Git 忽略項目
 ├── LICENSE                        # 授權許可文件
 └── README.md                      # 專案說明文件
 ```
